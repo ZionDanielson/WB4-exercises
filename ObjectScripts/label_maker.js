@@ -1,0 +1,21 @@
+"use strict";
+
+let myInfo = {
+    name: "Pursulane Faye",
+    address: "121 Main Street",
+    city: "Benbrook",
+    state: "Texas",
+    zip: "76126",
+};
+
+console.log(myInfo.name);
+    console.log(myInfo.address);
+    console.log(myInfo.city + ", " + myInfo.state + " " + myInfo.zip);
+
+function printContact(myInfo) {
+
+    console.log(myInfo.name);
+    console.log(myInfo.address);
+    console.log(myInfo.city + ", " + myInfo.state + " " + myInfo.zip);
+};
+
