@@ -8,16 +8,13 @@ let myInfo = {
     zip: "76126",
 };
 
-    console.log(myInfo.name);
-    console.log(myInfo.address);
-    console.log(myInfo.city + ", " + myInfo.state + " " + myInfo.zip);
-
 
     //Not executing
 function printContact(myInfo) {
-
     console.log(myInfo.name);
     console.log(myInfo.address);
     console.log(myInfo.city + ", " + myInfo.state + " " + myInfo.zip);
 };
 
+//calls the function
+printContact(myInfo);
